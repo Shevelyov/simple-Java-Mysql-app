@@ -13,17 +13,42 @@ public class Main {
         printMenuItems();
 
         Connection conn = DBUtils.initialize();
-
-//        stmt = conn.createStatement();
-//        rs = stmt.executeQuery("select * from artist");
-//
-//        while (rs.next()) {
-//            System.out.println(rs.getString("Aname"));
-//        }
-
         Scanner scan = new Scanner(System.in);
         String i = scan.nextLine();
 
+        processMenuItems(scan, conn, i);
+
+    }
+
+    public static void printMenuItems(){
+        System.out.println("1. Add artist");
+        System.out.println("2. Add customer");
+        System.out.println("3. Add artwork");
+        System.out.println("4. Add liked groups");
+        System.out.println("5. Update style of the artist");
+        System.out.println("6. Show artists");
+        System.out.println("7. Show artworks");
+        System.out.println("8. Show groups");
+        System.out.println("9. Show classifications");
+        System.out.println("10. Show liked groups");
+        System.out.println("11. Show liked artists");
+        System.out.println("12. Exit");
+    }
+
+    public static String startOver(){
+        System.out.println("\nDo you want to continue? [1 - yes, 0 - no]: ");
+        Scanner scan = new Scanner(System.in);
+        String i = scan.nextLine();
+
+        if(i.equals("1")){
+            System.out.println("Enter menu option:  ");
+            i = scan.nextLine();
+        }
+        else System.exit(0);
+        return i;
+    }
+
+    public static void processMenuItems(Scanner scan, Connection conn, String i){
         switch (i) {
             //add new artist
             case "1":
@@ -42,6 +67,7 @@ public class Main {
                 String style = scan.nextLine();
 
                 DBUtils.addArtist(conn, artistName, birthplace, age, style);
+                processMenuItems(scan, conn, startOver());
                 break;
 
             //add new customer
@@ -62,6 +88,7 @@ public class Main {
                 double custAmountParsed = Double.parseDouble(custAmount);
 
                 DBUtils.addCustomer(conn, custIdParsed, customerName, custAddress, custAmountParsed);
+                processMenuItems(scan, conn, startOver());
                 break;
 
             //add new artwork
@@ -94,6 +121,7 @@ public class Main {
                 } while (exists > 0);
 
                 DBUtils.addArtwork(conn, artTitle, artYearParsed, artType, artPriceParsed, artistArtName, groupName);
+                processMenuItems(scan, conn, startOver());
                 break;
 
             //add liked groups
@@ -106,48 +134,46 @@ public class Main {
                 String grName = scan.nextLine();
 
                 DBUtils.addLikedGroup(conn, cId, grName);
+                processMenuItems(scan, conn, startOver());
                 break;
 
             //Update artist's style
             case "5":
-               System.out.println("Artist name: ");
-               String arName = scan.nextLine();
+                System.out.println("Artist name: ");
+                String arName = scan.nextLine();
 
-               System.out.println("New style: ");
-               String newStyle = scan.nextLine();
+                System.out.println("New style: ");
+                String newStyle = scan.nextLine();
 
-               DBUtils.updateStyle(conn, arName, newStyle);
-               break;
-            case "6": DBUtils.showArtists(conn);
-                      break;
-            case "7": DBUtils.showArtworks(conn);
-                      break;
-            case "8": DBUtils.showGroups(conn);
-                      break;
-            case "9": DBUtils.showClassifications(conn);
-                      break;
-            case "10": DBUtils.showLikedGroups(conn);
-                       break;
-            case "11": DBUtils.showLikedArtists(conn);
-                       break;
+                DBUtils.updateStyle(conn, arName, newStyle);
+                processMenuItems(scan, conn, startOver());
+                break;
+            case "6":
+                DBUtils.showArtists(conn);
+                processMenuItems(scan, conn, startOver());
+                break;
+            case "7":
+                DBUtils.showArtworks(conn);
+                processMenuItems(scan, conn, startOver());
+                break;
+            case "8":
+                DBUtils.showGroups(conn);
+                processMenuItems(scan, conn, startOver());
+                break;
+            case "9":
+                DBUtils.showClassifications(conn);
+                processMenuItems(scan, conn, startOver());
+                break;
+            case "10":
+                DBUtils.showLikedGroups(conn);
+                processMenuItems(scan, conn, startOver());
+                break;
+            case "11":
+                DBUtils.showLikedArtists(conn);
+                processMenuItems(scan, conn, startOver());
+                break;
             case "12": System.exit(0);
 
         }
-
-    }
-
-    public static void printMenuItems(){
-        System.out.println("1. Add artist");
-        System.out.println("2. Add customer");
-        System.out.println("3. Add artwork");
-        System.out.println("4. Add liked groups");
-        System.out.println("5. Update style of the artist");
-        System.out.println("6. Show artists");
-        System.out.println("7. Show artworks");
-        System.out.println("8. Show groups");
-        System.out.println("9. Show classifications");
-        System.out.println("10. Show liked groups");
-        System.out.println("11. Show liked artists");
-        System.out.println("12. Exit");
     }
 }

@@ -42,7 +42,7 @@ public class DBUtils {
             stmt = conn.createStatement();
             rs = stmt.executeQuery("select * from Artist");
             while (rs.next()) {
-                System.out.println("Artist name: " + rs.getString("Aname"));
+                System.out.println("Artist name: " + rs.getString("Aname") + "; Style: " + rs.getString("Style"));
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -241,7 +241,7 @@ public class DBUtils {
             result = pstmt.executeUpdate();
 
             if(result == 1){
-                System.out.println("Successfully inserted a new customer!");
+                System.out.println("Successfully inserted a new liked artist!");
             }
             else System.out.println("Something went wrong, try again.");
 

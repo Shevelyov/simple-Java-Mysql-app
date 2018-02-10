@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60b2aae8-1b34-4a67-a78c-d33458542066" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/database/DBUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/database/DBUtils.java" afterPath="$PROJECT_DIR$/src/com/database/DBUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/database/Main.java" afterPath="$PROJECT_DIR$/src/com/database/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,11 +18,10 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/database/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="107" column="30" lean-forward="false" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
+            <state relative-caret-position="433">
+              <caret line="172" column="58" lean-forward="false" selection-start-line="172" selection-start-column="58" selection-end-line="172" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1518180595059" expanded="true" signature="406:426" ph="select * fro... artist" />
               </folding>
             </state>
           </provider>
@@ -32,28 +30,28 @@
       <file leaf-file-name="DBUtils.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/database/DBUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="232" column="22" lean-forward="false" selection-start-line="232" selection-start-column="22" selection-end-line="232" selection-end-column="22" />
+            <state relative-caret-position="390">
+              <caret line="44" column="86" lean-forward="false" selection-start-line="44" selection-start-column="86" selection-end-line="44" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1518181171639" expanded="true" signature="1216:1236" ph="select * fro... Artist" />
-                <marker date="1518181171639" expanded="true" signature="1596:1617" ph="select * fro... Artwork" />
-                <marker date="1518181171639" expanded="true" signature="1976:1996" ph="select * fro... Agroup" />
-                <marker date="1518181171639" expanded="true" signature="2362:2384" ph="select * fro... Classify" />
-                <marker date="1518181171639" expanded="true" signature="2828:2852" ph="select * fro... Like_Group" />
-                <marker date="1518181171639" expanded="true" signature="3301:3326" ph="select * fro... Like_Artist" />
-                <marker date="1518181171639" expanded="true" signature="3794:3854" ph="INSERT INTO Artist... " />
-                <marker date="1518181171639" expanded="true" signature="4624:4682" ph="INSERT INTO CUSTOMER... " />
-                <marker date="1518181171639" expanded="true" signature="5413:5472" ph="INSERT INTO ARTWORK... " />
-                <marker date="1518181171639" expanded="true" signature="6351:6401" ph="INSERT INTO AGROUP... " />
-                <marker date="1518181171639" expanded="true" signature="6810:6864" ph="INSERT INTO CLASSIFY... " />
-                <marker date="1518181171639" expanded="true" signature="7323:7379" ph="INSERT INTO LIKE_GROUP... " />
-                <marker date="1518181171639" expanded="true" signature="8026:8083" ph="INSERT INTO LIKE_ARTIST... " />
-                <marker date="1518181171639" expanded="true" signature="8733:8774" ph="SELECT AName... Artwork" />
-                <marker date="1518181171639" expanded="true" signature="9287:9329" ph="SELECT Title... CLASSIFY" />
-                <marker date="1518181171639" expanded="true" signature="9845:9888" ph="UPDATE ARTIS... " />
-                <marker date="1518181171639" expanded="true" signature="9845:9889" ph="UPDATE ARTIS... " />
-                <marker date="1518181171639" expanded="true" signature="10540:10583" ph="select count... AGROUP" />
+                <marker date="1518222653348" expanded="true" signature="1216:1236" ph="select * fro... Artist" />
+                <marker date="1518222653348" expanded="true" signature="1634:1655" ph="select * fro... Artwork" />
+                <marker date="1518222653348" expanded="true" signature="2014:2034" ph="select * fro... Agroup" />
+                <marker date="1518222653348" expanded="true" signature="2400:2422" ph="select * fro... Classify" />
+                <marker date="1518222653348" expanded="true" signature="2866:2890" ph="select * fro... Like_Group" />
+                <marker date="1518222653348" expanded="true" signature="3339:3364" ph="select * fro... Like_Artist" />
+                <marker date="1518222653348" expanded="true" signature="3832:3892" ph="INSERT INTO Artist... " />
+                <marker date="1518222653348" expanded="true" signature="4662:4720" ph="INSERT INTO CUSTOMER... " />
+                <marker date="1518222653348" expanded="true" signature="5451:5510" ph="INSERT INTO ARTWORK... " />
+                <marker date="1518222653348" expanded="true" signature="6389:6439" ph="INSERT INTO AGROUP... " />
+                <marker date="1518222653348" expanded="true" signature="6848:6902" ph="INSERT INTO CLASSIFY... " />
+                <marker date="1518222653348" expanded="true" signature="7361:7417" ph="INSERT INTO LIKE_GROUP... " />
+                <marker date="1518222653348" expanded="true" signature="8064:8121" ph="INSERT INTO LIKE_ARTIST... " />
+                <marker date="1518222653348" expanded="true" signature="8775:8816" ph="SELECT AName... Artwork" />
+                <marker date="1518222653348" expanded="true" signature="9329:9371" ph="SELECT Title... CLASSIFY" />
+                <marker date="1518222653348" expanded="true" signature="9887:9930" ph="UPDATE ARTIS... " />
+                <marker date="1518222653348" expanded="true" signature="9887:9931" ph="UPDATE ARTIS... " />
+                <marker date="1518222653348" expanded="true" signature="10582:10625" ph="select count... AGROUP" />
               </folding>
             </state>
           </provider>
@@ -67,6 +65,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>succe</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,7 +94,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-13" />
     <option name="y" value="14" />
     <option name="width" value="1932" />
@@ -214,15 +217,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518138534224</updated>
-      <workItem from="1518138538537" duration="17361000" />
+      <workItem from="1518138538537" duration="21181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17361000" />
+    <option name="totallyTimeSpent" value="21181000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -306,7 +309,7 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -329,39 +332,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/database/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="107" column="30" lean-forward="false" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
+        <state relative-caret-position="433">
+          <caret line="172" column="58" lean-forward="false" selection-start-line="172" selection-start-column="58" selection-end-line="172" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1518180595059" expanded="true" signature="406:426" ph="select * fro... artist" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/database/DBUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="232" column="22" lean-forward="false" selection-start-line="232" selection-start-column="22" selection-end-line="232" selection-end-column="22" />
+        <state relative-caret-position="390">
+          <caret line="44" column="86" lean-forward="false" selection-start-line="44" selection-start-column="86" selection-end-line="44" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1518181171639" expanded="true" signature="1216:1236" ph="select * fro... Artist" />
-            <marker date="1518181171639" expanded="true" signature="1596:1617" ph="select * fro... Artwork" />
-            <marker date="1518181171639" expanded="true" signature="1976:1996" ph="select * fro... Agroup" />
-            <marker date="1518181171639" expanded="true" signature="2362:2384" ph="select * fro... Classify" />
-            <marker date="1518181171639" expanded="true" signature="2828:2852" ph="select * fro... Like_Group" />
-            <marker date="1518181171639" expanded="true" signature="3301:3326" ph="select * fro... Like_Artist" />
-            <marker date="1518181171639" expanded="true" signature="3794:3854" ph="INSERT INTO Artist... " />
-            <marker date="1518181171639" expanded="true" signature="4624:4682" ph="INSERT INTO CUSTOMER... " />
-            <marker date="1518181171639" expanded="true" signature="5413:5472" ph="INSERT INTO ARTWORK... " />
-            <marker date="1518181171639" expanded="true" signature="6351:6401" ph="INSERT INTO AGROUP... " />
-            <marker date="1518181171639" expanded="true" signature="6810:6864" ph="INSERT INTO CLASSIFY... " />
-            <marker date="1518181171639" expanded="true" signature="7323:7379" ph="INSERT INTO LIKE_GROUP... " />
-            <marker date="1518181171639" expanded="true" signature="8026:8083" ph="INSERT INTO LIKE_ARTIST... " />
-            <marker date="1518181171639" expanded="true" signature="8733:8774" ph="SELECT AName... Artwork" />
-            <marker date="1518181171639" expanded="true" signature="9287:9329" ph="SELECT Title... CLASSIFY" />
-            <marker date="1518181171639" expanded="true" signature="9845:9888" ph="UPDATE ARTIS... " />
-            <marker date="1518181171639" expanded="true" signature="9845:9889" ph="UPDATE ARTIS... " />
-            <marker date="1518181171639" expanded="true" signature="10540:10583" ph="select count... AGROUP" />
+            <marker date="1518222653348" expanded="true" signature="1216:1236" ph="select * fro... Artist" />
+            <marker date="1518222653348" expanded="true" signature="1634:1655" ph="select * fro... Artwork" />
+            <marker date="1518222653348" expanded="true" signature="2014:2034" ph="select * fro... Agroup" />
+            <marker date="1518222653348" expanded="true" signature="2400:2422" ph="select * fro... Classify" />
+            <marker date="1518222653348" expanded="true" signature="2866:2890" ph="select * fro... Like_Group" />
+            <marker date="1518222653348" expanded="true" signature="3339:3364" ph="select * fro... Like_Artist" />
+            <marker date="1518222653348" expanded="true" signature="3832:3892" ph="INSERT INTO Artist... " />
+            <marker date="1518222653348" expanded="true" signature="4662:4720" ph="INSERT INTO CUSTOMER... " />
+            <marker date="1518222653348" expanded="true" signature="5451:5510" ph="INSERT INTO ARTWORK... " />
+            <marker date="1518222653348" expanded="true" signature="6389:6439" ph="INSERT INTO AGROUP... " />
+            <marker date="1518222653348" expanded="true" signature="6848:6902" ph="INSERT INTO CLASSIFY... " />
+            <marker date="1518222653348" expanded="true" signature="7361:7417" ph="INSERT INTO LIKE_GROUP... " />
+            <marker date="1518222653348" expanded="true" signature="8064:8121" ph="INSERT INTO LIKE_ARTIST... " />
+            <marker date="1518222653348" expanded="true" signature="8775:8816" ph="SELECT AName... Artwork" />
+            <marker date="1518222653348" expanded="true" signature="9329:9371" ph="SELECT Title... CLASSIFY" />
+            <marker date="1518222653348" expanded="true" signature="9887:9930" ph="UPDATE ARTIS... " />
+            <marker date="1518222653348" expanded="true" signature="9887:9931" ph="UPDATE ARTIS... " />
+            <marker date="1518222653348" expanded="true" signature="10582:10625" ph="select count... AGROUP" />
           </folding>
         </state>
       </provider>
